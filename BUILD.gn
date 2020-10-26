@@ -658,7 +658,7 @@ source_set("electron_lib") {
     ]
   }
 
-  if (is_win && enable_win_dark_mode) {
+  if (is_win && enable_win_dark_mode_window_ui) {
     sources += [
       "shell/browser/win/dark_mode.cc",
       "shell/browser/win/dark_mode.h",
