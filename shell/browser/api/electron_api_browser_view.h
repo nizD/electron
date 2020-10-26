@@ -13,6 +13,7 @@
 #include "gin/handle.h"
 #include "gin/wrappable.h"
 #include "shell/browser/api/electron_api_web_contents.h"
+#include "shell/browser/extended_web_contents_observer.h"
 #include "shell/browser/native_browser_view.h"
 #include "shell/common/api/api.mojom.h"
 #include "shell/common/gin_helper/constructible.h"
