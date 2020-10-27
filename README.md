@@ -73,7 +73,8 @@ Most people use Electron from the command line, but if you require `electron` in
 your **Node app** (not your Electron app) it will return the file path to the
 binary. Use this to spawn Electron from Node scripts:
 
-```javascript
+```
+javascript
 const electron = require('electron')
 const proc = require('child_process')
 
